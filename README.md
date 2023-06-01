@@ -1,0 +1,2 @@
+***Vultus-Mobile-App
+Vultus keeps the location, photo and name of any place you've been or that you remember going, preventing it from being deleted from your phone, even if it's not from your memory. Users can take photos, pick location and add locations to their fav places.

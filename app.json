@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Vultus-App-CyberSoft-Project",
+    "name": "Vultus",
     "slug": "Vultus-App-CyberSoft-Project",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,35 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.cucu88.VultusAppCyberSoftProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app needs access to your camera in order to take photos of your favorite places."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e48f5291-c097-488a-8df0-ad30c7321252"
+      }
     }
   }
 }
