@@ -21,7 +21,7 @@ const ImagePicker = ({onTakeImage}) => {
         // Eğer izin verilmezse yapılacak kısım yer almaktadır.
 
         if(cameraPermissionInformation.status===PermissionStatus.DENIED){
-            Alert.alert("Insufficient Permissions!","You need to grant camera permissions to use this app.",)
+            Alert.alert("Insufficient Permissions!","You need to grant camera permissions to use this app.")
 
             return false
         }

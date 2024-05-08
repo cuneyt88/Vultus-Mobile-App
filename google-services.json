@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121037398514",
+    "firebase_url": "https://vultus-app-cybersoft-project-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vultus-app-cybersoft-project",
+    "storage_bucket": "vultus-app-cybersoft-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121037398514:android:66bb5a8e14ebb11c4fcb6b",
+        "android_client_info": {
+          "package_name": "com.cucu88.VultusAppCyberSoftProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121037398514-ba97817dcbvqj4bdog5ofl315qinin6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd7R2FbSMD1n1n-jTndOmysSkOZqc5LbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121037398514-ba97817dcbvqj4bdog5ofl315qinin6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
